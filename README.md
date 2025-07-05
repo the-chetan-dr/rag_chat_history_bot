@@ -1,1 +1,3 @@
 # rag_chat_history_bot
+\
+This project lets you chat with any PDF using a conversational interface powered by LangChain, GROQ’s Gemma2-9B-IT, and ChromaDB. Upload a PDF, ask questions (even follow-ups), and get accurate, context-aware answers. It uses HuggingFace embeddings to vectorize the document, stores them in a vector database, and retrieves the most relevant chunks based on your query. A history-aware retriever rewrites questions when needed, and session-based memory keeps your conversations smooth and natural. Built with Streamlit, it's a simple but powerful example of Conversational RAG in action.
